@@ -19,7 +19,7 @@ export default function TransparencyPage() {
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="relative h-[40vh] w-full">
           <Image
-            src="/placeholder.svg?height=600&width=1600"
+            src="https://tse4.mm.bing.net/th?id=OIP.xFgaAjKjzyTvTzXLbSIA0AHaF7&pid=Api&P=0&h=220"
             alt="Transparency and accountability"
             fill
             className="object-cover"

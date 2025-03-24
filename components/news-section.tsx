@@ -44,14 +44,16 @@ export default function NewsSection() {
   const [news, setNews] = useState<NewsItem[]>([])
   const [loading, setLoading] = useState(true)
   const { t } = useLanguage()
+  const apiKey = "pub_76112e8469f1165b0d1546ec16b0542fc29c7";
 
   useEffect(() => {
     // Simulate API fetch with a delay
     const fetchNews = async () => {
       try {
         // In a real app, you would fetch from an actual API
-        // const response = await fetch('/api/news')
-        // const data = await response.json()
+        const response = await fetch(`https://newsdata.io/api/1/latest?apikey=${apiKey}&q=cows`)
+        const data = await response.json()
+        console.log(data);
 
         // Using mock data for demonstration
         setTimeout(() => {
@@ -64,7 +66,6 @@ export default function NewsSection() {
       }
     }
 
-    fetchNews()
   }, [])
 
   return (

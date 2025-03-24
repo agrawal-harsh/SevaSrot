@@ -18,7 +18,7 @@ export default function BecomeSevakPage() {
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="relative h-[40vh] w-full">
           <Image
-            src="/placeholder.svg?height=600&width=1600"
+            src="https://vastushala.com/wp-content/uploads/2020/09/cow-hindu-india-1000x600.jpg"
             alt="Volunteers caring for cows"
             fill
             className="object-cover"

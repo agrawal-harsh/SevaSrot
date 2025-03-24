@@ -18,7 +18,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="relative h-[70vh] w-full">
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="https://saveindiancows.org/wp-content/uploads/2019/01/Cow-feed.jpg"
             alt="Rescued cows at SevaSrot sanctuary"
             fill
             className="object-cover"
@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="https://cdn.pixabay.com/photo/2017/09/16/13/41/cow-2755520_1280.jpg"
                 alt="Happy cows at SevaSrot sanctuary"
                 fill
                 className="object-cover"
